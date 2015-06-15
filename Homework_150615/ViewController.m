@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "OutsideViewController.h"
 
 @interface ViewController ()
 
@@ -25,12 +24,15 @@
 
 - (IBAction)showOutsideView {
 
-    UIView *outsideView = [[[NSBundle mainBundle] loadNibNamed:@"Outside_view" owner:self options:nil] objectAtIndex:0];
+    self.testView = [[[NSBundle mainBundle] loadNibNamed:@"Outside_view" owner:self options:nil] objectAtIndex:0];
     
-    outsideView.frame = CGRectMake(80.0f, 356.0f, 160.0f, 150.0f);
-    [self.view addSubview:outsideView];
+    self.testView.frame = CGRectMake(80.0f, 356.0f, 160.0f, 150.0f);
+    [self.view addSubview:self.testView];
 }
 
 
+- (IBAction)removeOutsideView {
+    [self.testView removeFromSuperview];
+}
     
 @end

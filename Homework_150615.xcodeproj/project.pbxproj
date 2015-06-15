@@ -16,7 +16,6 @@
 		4F98DD241B2EC8A10069F01B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DD221B2EC8A10069F01B /* LaunchScreen.xib */; };
 		4F98DD301B2EC8A20069F01B /* Homework_150615Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F98DD2F1B2EC8A20069F01B /* Homework_150615Tests.m */; };
 		4F98DD3A1B2EC9130069F01B /* Outside_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F98DD391B2EC9130069F01B /* Outside_view.xib */; };
-		4F98DD3D1B2EC9350069F01B /* OutsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F98DD3C1B2EC9350069F01B /* OutsideViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +45,6 @@
 		4F98DD2E1B2EC8A20069F01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F98DD2F1B2EC8A20069F01B /* Homework_150615Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Homework_150615Tests.m; sourceTree = "<group>"; };
 		4F98DD391B2EC9130069F01B /* Outside_view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Outside_view.xib; sourceTree = "<group>"; };
-		4F98DD3B1B2EC9350069F01B /* OutsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutsideViewController.h; sourceTree = "<group>"; };
-		4F98DD3C1B2EC9350069F01B /* OutsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutsideViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +94,6 @@
 				4F4C71841B2EEB1B00FC099E /* OutsideView.m */,
 				4F98DD1D1B2EC8A10069F01B /* Main.storyboard */,
 				4F98DD391B2EC9130069F01B /* Outside_view.xib */,
-				4F98DD3B1B2EC9350069F01B /* OutsideViewController.h */,
-				4F98DD3C1B2EC9350069F01B /* OutsideViewController.m */,
 				4F98DD201B2EC8A10069F01B /* Images.xcassets */,
 				4F98DD221B2EC8A10069F01B /* LaunchScreen.xib */,
 				4F98DD131B2EC8A10069F01B /* Supporting Files */,
@@ -236,7 +231,6 @@
 				4F98DD1C1B2EC8A10069F01B /* ViewController.m in Sources */,
 				4F98DD191B2EC8A10069F01B /* AppDelegate.m in Sources */,
 				4F4C71851B2EEB1B00FC099E /* OutsideView.m in Sources */,
-				4F98DD3D1B2EC9350069F01B /* OutsideViewController.m in Sources */,
 				4F98DD161B2EC8A10069F01B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

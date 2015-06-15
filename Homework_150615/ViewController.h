@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OutsideView.h"
 
 @interface ViewController : UIViewController
 
+@property UIView *testView;
 
 @end
 
